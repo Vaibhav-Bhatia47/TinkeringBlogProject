@@ -1,0 +1,48 @@
+#textblock{
+    float: left;
+    padding: 20px;
+    margin: 20px;
+
+}
+#textblock:hover{
+    border: 5px solid rgb(243, 102, 102);
+    border-radius: 10px;
+}
+#textblock h1{
+    font-size: 60px;
+    color: rgb(243, 102, 102)
+}
+#content{
+    font-size: 20px;
+    color: rgb(243, 102, 102)
+}
+
+body{
+    background-image: url("https://www.sandiego.edu/cas/images/psychological-sciences/psychology-future.jpg");
+    width: 500px;
+}
+#navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+    position: relative;
+    left: 60px;
+    top: 20px;
+     margin:2px 0px;
+    padding:0px;}
+    
+
+#navbar a {
+    padding: 0px 20px;
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(243, 102, 102);
+    font-family: 'Roboto Slab', serif;
+}
+#navbar a:hover{
+    color: whitesmoke;
+    background-color: rgb(245, 72, 72);
+    border: 2px solid rgb(243, 102, 102);
+    border-radius: 5px;
+}
