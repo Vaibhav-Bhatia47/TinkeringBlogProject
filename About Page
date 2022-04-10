@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <ul id="navbar">
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="">Blogs</a></li>
+        <li><a href="">Contact</a></li>
+    </ul> 
+    <div id="upper">
+        <div id="textblock">
+          
+        <p><h1>About Us</h1></p>
+        <p id="content">We are a community of enthusiastic psychological bloggers who are keen to
+          help each other solve thier daily lives basic psychological problems.</p>
+    </div>
+    </div>
+</body>
+</html>
