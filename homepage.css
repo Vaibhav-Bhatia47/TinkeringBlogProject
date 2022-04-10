@@ -1,0 +1,93 @@
+#SearchBar {
+    position: relative;
+    bottom: 40px;
+    float: right;
+    background-color: rgb(75, 72, 72);
+    padding: 5px 5px;
+
+
+}
+
+input::placeholder {
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#Upper::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    margin: 0px;
+}
+
+#Upper {
+    color: whitesmoke;
+
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+i {
+    width: 20px;
+    height: 20px;
+}
+
+#navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+
+#navbar a {
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar a:hover {
+    background-color: rgb(75, 72, 72);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#img1 {
+    height: 350px;
+    width: 450px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+#img2 {
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 296px;
+    bottom: 30px;
+}
+
+#lower ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lower li{
+    margin:40px 20px;
+}
+
